@@ -1,0 +1,87 @@
+/* General Styles */
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    
+    /* height: 100vh; */
+}
+
+.emergency {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: black;
+    font-weight: bolder;
+    background-color: red;
+    padding: 10px 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+.container {
+    background: white;
+    position: absolute;
+    /* display: none; */
+    color: black;
+    padding: 4rem 6rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60rem;
+    left: 32%;
+    top: 18vh;
+    margin: 5rem auto;
+   
+}
+.hide_container {
+    opacity: 0;
+    display: none;
+    visibility: hidden;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.appointmentForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* Specific Styles for Appointment Page */
+#confirmationMessage {
+    display: none;
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}

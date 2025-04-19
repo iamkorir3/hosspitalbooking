@@ -1,0 +1,221 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    overflow: scroll;
+}
+.close_butt {
+    width: 3.6rem;
+    width: 3.2rem; 
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+    color: red; 
+    font-size: 3.2rem;
+    font-weight: bolder;
+    /* background-color: red; */
+    padding: 10px 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0;
+}
+.close_butt:hover {
+    background-color: red;
+    color: #000;
+    transition: all, 1.2s;
+   
+}
+body {
+    /* background-image: url(School-of-Nursing.jpg);
+    background-repeat: no-repeat; */
+    background-size: fill;
+}
+.container_all {
+    max-width: 170rem;
+    height: 100vh;
+    background-color: black;
+    margin: 0 auto;
+    background-image: url(images/School-of-Nursing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+    
+    position: relative;
+    /* flex-direction: column; */
+}
+
+.logo_img {
+    width: 70rem;
+    margin: 2rem auto;
+
+}
+.header-1 {
+    color: rgb(8, 161, 69);
+    font-size: 5rem;
+    text-transform: capitalize;
+    margin: auto;
+    justify-self: center;
+}
+
+.appointmentForm {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+/* **********************
+AVAILABLE BOOKINGS
+*********************** */
+.bookings{
+    
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.booking {
+    border-radius: 10px;
+    border:2px #000;
+    width: 40rem;
+    height: 40rem;
+    background-color:whitesmoke;
+}
+.header-2 {
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    padding-top: 1rem;
+}
+.book_img {
+    width:36rem;
+    height: 70%;
+    margin: 1rem 2rem;
+   
+}
+.ambul_img{
+    width:36rem;
+    height: 70%;
+    margin: 1rem 2rem;
+}
+.appoint_butt {
+    background-color:  rgb(47, 255, 95);
+    color: black;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 0;
+    bottom: 0;
+
+}
+.emerge_butt {
+    background-color:  rgb(255, 47, 47);
+    color: black;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 0;
+    bottom: 0;
+}
+
+
+/* appointment csss */
+/* General Styles */
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    
+    /* height: 100vh; */
+}
+
+.emergency {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: black;
+    font-weight: bolder;
+    background-color: red;
+    padding: 10px 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+.container {
+    background: white;
+    position: absolute;
+    /* display: none; */
+    color: black;
+    padding: 4rem 6rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60rem;
+    left: 32%;
+    top: 18vh;
+    margin: 5rem auto;
+   
+}
+.practice{
+    font-size: 2.4rem;
+    color: red;
+}
+.hide_container {
+    opacity: 0;
+    visibility: hidden;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.appointmentForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* Specific Styles for Appointment Page */
+#confirmationMessage {
+    display: none;
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+
+

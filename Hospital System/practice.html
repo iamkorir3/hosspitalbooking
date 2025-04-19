@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .style_1 {
+            font-size: 2.4rem;
+            color: white;
+            cursor: pointer;
+            background-color: black;
+            margin: 5rem;
+        }
+        .parag {
+            font-size: 2rem;
+        }
+        .parag_2 {
+            color: rgb(47, 255, 57);
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button class="style_1" id="bookButton">buton </ion-icon> </button>
+    <p class=" parag">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae sunt quasi optio culpa itaque, odit rerum modi cum dicta veniam non quas expedita ducimus quibusdam illum mollitia. Quasi, in corporis.</p>
+   <script>
+    const bookBUtt = document.getElementById("bookButton");
+    const text = document.querySelector(".parag");
+
+    bookBUtt.addEventListener("click", color);
+    function color(){
+        text.classList.toggle("parag_2");
+    }
+
+   </script>
+    <script src="appointment.js"></script>
+</body>
+</html>

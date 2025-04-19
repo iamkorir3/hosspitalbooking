@@ -1,0 +1,44 @@
+@media(max-width: 44em){
+    .container_all{
+        width: 44rem;
+    }
+    .header-1{
+        font-size: 2.4rem;
+    }
+    .bookings {
+        flex-direction: column;
+        gap: 2rem;
+        margin-left: 2rem;
+        justify-content: center;
+        overscroll-behavior-x: 6px;
+    }
+    .logo_img {
+        width: 22rem;
+        height: 8rem;
+        margin: 1rem 9rem;
+    
+    }
+    .container {
+        left: 0;
+        top: 0;
+        width: 39rem;
+        margin: 0 0.5rem;
+        padding: 2rem 2rem;
+        font-weight: 200;
+        font-size: 1.6rem;
+        
+    }
+    .book_title {
+        color: rgba(8, 142, 39, 0.994);
+        padding-top: 0;
+        margin-bottom: 0.7rem;
+    }
+    .close_butt {
+        right: 1.5rem;
+    }
+    
+label {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+}

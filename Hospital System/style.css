@@ -1,0 +1,80 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container_all {
+    width: 120rem;
+    background-color: black;
+}
+.logo_img {
+    width: 3rem;
+}
+.registratioForm {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgb(83, 81, 81);
+    color:white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
+
+.contact {
+    display: block;
+    margin-top: 8px;
+}
+
+.login-but {
+    border: #218838;
+    background-color: #28a745;
+    padding:5px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: bold;
+}

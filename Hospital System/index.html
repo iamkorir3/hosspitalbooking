@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital booking</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="appointment.css">
+    <link rel="stylesheet" href="querry.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <section class="container_all">
+    <section class="container_1">
+        <img src="images/logo4_png_version.fw_.png" alt="Logo of meru university" class="logo_img">
+
+        <h2 class="header-1">
+            Hospital booking
+        </h2>
+    </section>
+
+    <section class="container hide_container">
+        
+            <h1 id="welcomeMessage" class="book_title">Book an Appointment</h1>
+            <button class="close_butt">&times;</button>
+            <!-- <button class="emergency"><ion-icon name="close-outline"></ion-icon></a> -->
+            <form class="appointmentForm" id="appointmentForm">
+                <label for="fullname">Registration Number</label>
+                <input type="text" id="fullname" name="fullname" required>
+                <label for="email">Phone number</label>
+                <input type="number" id="number" name="email" required>
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="date">Preferred Date</label>
+                <input type="date" id="date" name="date" required>
+    
+                <label for="date">Current Location</label>
+                <input type="text" id="Current" name="date" required>
+    
+                <label for="time">Preferred Time</label>
+                <input type="time" id="time" name="time" required>
+    
+                <label for="department">Department</label>
+                <select id="department" name="department" required>
+                    <option value="General Consultation">General Consultation</option>
+                    <option value="Cardiology">Cardiology</option>
+                    <option value="Pediatrics">Pediatrics</option>
+                    <option value="Orthopedics">Orthopedics</option>
+                </select>
+    
+                <label for="notes">Additional Notes</label>
+                <textarea id="notes" name="notes" rows="3"></textarea>
+    
+                <button type="submit" class="appoint_butt">Book Appointment</button>
+            </form>
+            <p id="confirmationMessage" style="display: none; color: green; text-align: center; font-weight: bold;">Appointment Booked Successfully!</p>
+        
+        
+    </section>
+
+    <section class="bookings">
+        <div class="booking">
+            <h2 class="header-2">book appointment</h2>
+            <img src="images/booking.png" alt="calender" class="book_img">
+            <button class="appoint_butt" id="bookButton">BOOK NOW</button>
+            <!-- <a href="practice.html" class="practice">practice</a> -->
+            <p></p>
+        </div>
+        <div class="booking">
+            <h2 class="header-2">report an incidend</h2>
+            <img src="images/images.jpg" alt="ambulance" class="ambul_img" >
+            <button id="emerge_butt" class="emerge_butt">EMERGENCY</button>
+        </div>
+        <div class="booking">
+            <h2 class="header-2">track your health records</h2>
+            <img src="images/nures.jpg" alt="records pic" class="book_img">
+            <button class="appoint_butt">CHECK RECORDS</button>
+        </div>
+    </section>
+
+
+    </section>
+    
+    <script src="appointment.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
