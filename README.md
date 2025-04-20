@@ -153,6 +153,9 @@ also enable those with urgent needs to be attended to if there is an open slot.
 
 
 RESULTS AND DISCUSSION
+Large screen view
  ![image](https://github.com/user-attachments/assets/05cce513-ed2c-4945-b5c8-264573bf595c)
+ 
+ Mobile view
  ![image](https://github.com/user-attachments/assets/dc8ecd17-05b0-4d9c-b515-e17ed2752ddf)
 
