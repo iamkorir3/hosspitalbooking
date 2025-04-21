@@ -4,11 +4,11 @@
 Project title: Hospital Booking System 
 Group name: Tectonic
 Group members
-Names: Victor Kiptoo
-      Ryan karani
-      Timothy Murimi
-      Leah Komen
-      Emmanuel Korir
+Names: Victor Kiptoo,
+      Ryan karani,
+      Timothy Murimi,
+      Leah Komen,
+      Emmanuel Korir, & 
       Jones Ruto
 	
 Submission date:
