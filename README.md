@@ -8,7 +8,7 @@ Names: Victor Kiptoo,
       Ryan karani,
       Timothy Murimi,
       Leah Komen,
-      Emmanuel Korir, & 
+      Emmanuel Korir & 
       Jones Ruto
 	
 Submission date:
