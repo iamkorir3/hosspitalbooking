@@ -25,6 +25,7 @@ Submission date:
 
 
 ABSTRACT
+
 We as a group identified a problem of patients finding it difficult to consult doctors 
 at the consultation room and long waiting times at Meru university hospital located
 at Nchiru. Our project mainly focuses on designing a hospital booking system tailored
@@ -53,6 +54,7 @@ and staff.
 
 
 INTRODUCTION
+
 The hospital booking system platform is designed to streamline patient appointment
 Management and improve healthcare service delivery. The hospital booking system
 Comes with Electronic Health Records, SMS notification after booking an appointment
@@ -78,6 +80,7 @@ appointments via websites using hardwares such as phones and laptops.
 
 
 PROBLEM STATEMENT
+
 The current hospital booking system entirely depends on manual appointment scheduling.
 The manual appointment scheduling leads to problems such as:
 1)long waiting times due to overcrowding and unstructured booking processes.
@@ -144,7 +147,7 @@ also enable those with urgent needs to be attended to if there is an open slot.
 
 6) IMPLEMENTATION
 
-The hos pital
+The hospital
 booking System was implemented using an 
 iterative development model ensuring
 Continuous feedback and improvements.
