@@ -142,7 +142,36 @@ To allow a same day bookings and decided to implement it on the system which wou
 also enable those with urgent needs to be attended to if there is an open slot.
 
 
+6) IMPLEMENTATION
 
+The hos pital
+booking System was implemented using an 
+iterative development model ensuring
+Continuous feedback and improvements.
+We Conducted
+interviews with the university health
+Stuff and
+Students
+
+We identified needs such as the online appointment
+booking real-time scheduling and automated reminders.
+We designed a web-based application with the fronted, small backend, and we will use the school database.
+
+Frontend :Developed usinq HTML, CSS and javascipt
+Backerd NODE.JS
+Database My SQL for Structured
+patient records, appoitments and doctor schedules
+
+Student will be able to access the booking system through student portal
+We also placed login portl for students to login
+Automated Confirmation SMS notificotion
+We verified individual modules (login,booking & hotifications)
+
+User Acceptance testing Faedback from a pilot
+Students and Statf.
+
+Some of the challenges we faced ond how we
+Overcame them:
 
 
 
