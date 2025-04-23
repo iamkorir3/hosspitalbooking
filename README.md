@@ -171,6 +171,11 @@ Students and Statf.
 Some of the challenges we faced ond how we
 Overcame them:
 
+REFERENCES
+1. Testing - We tested the web-app multible time to ensure it is working. we also gave access to student to participate.
+2. Github repository - we collaborted here is creating the whole system
+3. Interviews - we conducted interviews on students and health stuff about the system development
+4. Database - for database, the system will be intergrted with the already existing databse for the school. 
 
 
 
@@ -189,5 +194,13 @@ Large screen view
  ![image](https://github.com/user-attachments/assets/dc8ecd17-05b0-4d9c-b515-e17ed2752ddf)
 
  ![image](https://github.com/user-attachments/assets/a1f17c64-685c-4119-9911-785bafe33868)
+
+ CONCLUSIONS
+ The development of the Booking System has been successfully completed, meeting all the functional and non-functional requirements. The system provides an efficient, user-friendly, and secure platform for managing bookings
+
+ ACHIEVEMENTS
+ 1. Booking Functionality- Real-time availability checks and reservation handling.
+ 2. Responsive UI (design)- this system is cross-device, has both mobile and desktop accessability
+ 3. security measures - Students are required to login before using, this ensure that private health records are safe from exposure.
 
 
